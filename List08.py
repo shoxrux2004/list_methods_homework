@@ -6,4 +6,6 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+    a=fruits.remove('apple')
+    return fruits
+print(main(fruits=['apple','kiwi','apple','apple']))

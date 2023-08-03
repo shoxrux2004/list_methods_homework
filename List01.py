@@ -7,4 +7,6 @@ def main(fruits,x):
     Returns:
         list: return answer
     """
-    return
+    a=fruits.append(x)
+    return fruits
+print(main(fruits=['apple','banan'],x='kiwi'))
